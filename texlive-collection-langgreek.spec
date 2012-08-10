@@ -1,4 +1,4 @@
-# revision 15748
+# revision 26262
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-langgreek
 Epoch:		1
-Version:	20120224
+Version:	20120810
 Release:	1
 Summary:	Greek
 Group:		Publishing
@@ -30,6 +30,7 @@ Requires:	texlive-ibygrk
 Requires:	texlive-kerkis
 Requires:	texlive-levy
 Requires:	texlive-lgreek
+Requires:	texlive-lgrx
 Requires:	texlive-mkgrkindex
 Requires:	texlive-teubner
 Requires:	texlive-xgreek
