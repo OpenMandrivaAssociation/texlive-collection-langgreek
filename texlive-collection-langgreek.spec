@@ -52,3 +52,16 @@ Support for typesetting Greek.
 %build
 
 %install
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
++ Revision: 813926
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780417
+- Update to latest release.
+- Import texlive-collection-langgreek
+- Import texlive-collection-langgreek
+
