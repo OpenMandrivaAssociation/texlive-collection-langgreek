@@ -1,4 +1,4 @@
-# revision 26262
+# revision 31679
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-langgreek
 Epoch:		1
-Version:	20120810
+Version:	20131013
 Release:	1
 Summary:	Greek
 Group:		Publishing
@@ -16,31 +16,32 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-langgr
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
+Requires:	texlive-babel-greek
 Requires:	texlive-betababel
 Requires:	texlive-bgreek
 Requires:	texlive-cbfonts
+Requires:	texlive-cbfonts-fd
 Requires:	texlive-gfsbaskerville
 Requires:	texlive-gfsporson
+Requires:	texlive-greek-fontenc
 Requires:	texlive-greek-inputenc
 Requires:	texlive-greekdates
 Requires:	texlive-greektex
-Requires:	texlive-grverb
+Requires:	texlive-hyphen-greek
+Requires:	texlive-hyphen-ancientgreek
 Requires:	texlive-ibycus-babel
 Requires:	texlive-ibygrk
 Requires:	texlive-kerkis
 Requires:	texlive-levy
 Requires:	texlive-lgreek
-Requires:	texlive-lgrx
 Requires:	texlive-mkgrkindex
 Requires:	texlive-teubner
 Requires:	texlive-xgreek
 Requires:	texlive-yannisgr
-Requires:	texlive-hyphen-greek
-Requires:	texlive-hyphen-ancientgreek
-Requires:	texlive-collection-basic
 
 %description
-Support for typesetting Greek.
+Support for Greek.
 
 #-----------------------------------------------------------------------
 %files
@@ -52,16 +53,3 @@ Support for typesetting Greek.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
-+ Revision: 813926
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780417
-- Update to latest release.
-- Import texlive-collection-langgreek
-- Import texlive-collection-langgreek
-
