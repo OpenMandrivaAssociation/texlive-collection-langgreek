@@ -7,7 +7,7 @@
 Name:		texlive-collection-langgreek
 Epoch:		1
 Version:	20131013
-Release:	6
+Release:	7
 Summary:	Greek
 Group:		Publishing
 URL:		http://tug.org/texlive
