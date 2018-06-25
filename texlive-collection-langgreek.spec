@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-langgreek
 Epoch:		1
-Version:	20170505
+Version:	20180303
 Release:	1
 Summary:	Greek
 Group:		Publishing
