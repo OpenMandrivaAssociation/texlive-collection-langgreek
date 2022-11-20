@@ -1,6 +1,6 @@
 Name:		texlive-collection-langgreek
 Epoch:		1
-Version:	61820
+Version:	65038
 Release:	1
 Summary:	Greek
 Group:		Publishing
